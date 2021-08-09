@@ -1,0 +1,57 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(189, 189, 189, 0.507);
+    border-radius: 25px;
+    overflow: hidden;
+    width: 42rem;
+    height: 3em;
+    
+}
+
+.search-text {
+    border: 0;
+    flex: 1;
+}
+
+.search-bar:hover {
+    box-shadow: 0 0 10px rgba(189, 189, 189, 0.507);
+}
+
+input:focus {
+    outline: none;
+}
+
+.empty-space {
+    flex: 1;
+}
+
+.big-icon1 {
+    height: 25px;
+    width: 25px;
+}
+
+#clear {
+    padding: 0.15em 0.8em;
+    margin: 0.8em;
+    border-right: thin solid rgba(128, 128, 128, 0.267);
+}
+
+#search-icon {
+    padding-right: 1.1em;
+}
+
+#settings {
+    height: 35px;
+    width: 35px;
+}
+
+#apps {
+    height: 19px;
+    width: 19px;
+}
+
+#user {
+    height: 40px;
+    width: 40px;
+}
