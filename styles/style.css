@@ -1,3 +1,15 @@
+header {
+    display: flex;
+    align-items: center;
+    min-width: 1300px;
+    margin-top: 2em;
+}
+
+.logo {
+    width: 100px;
+    margin: 0 3em 0 1.5em;
+}
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -6,7 +18,11 @@
     overflow: hidden;
     width: 42rem;
     height: 3em;
-    
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
 }
 
 .search-text {
