@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -13,11 +18,12 @@ header {
 .search-bar {
     display: flex;
     align-items: center;
-    border: 1px solid rgba(189, 189, 189, 0.507);
+    border: 1px solid rgba(189, 189, 189, 0.322);
     border-radius: 25px;
     overflow: hidden;
     width: 42rem;
     height: 3em;
+    box-shadow: 0 1px 5px rgba(189, 189, 189, 0.438);
 }
 
 .right-header {
@@ -28,10 +34,11 @@ header {
 .search-text {
     border: 0;
     flex: 1;
+    margin-left: 1.4em;
 }
 
 .search-bar:hover {
-    box-shadow: 0 0 10px rgba(189, 189, 189, 0.507);
+    box-shadow: 0 1px 10px rgba(189, 189, 189, 0.63);
 }
 
 input:focus {
